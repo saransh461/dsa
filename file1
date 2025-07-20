@@ -1,0 +1,15 @@
+//uppercase lowercase code
+#include <iostream>
+using namespace std;
+
+int main() {
+    char a;
+    cin>>a;
+    if(a>=65 && a<=90){
+        cout<<"lowercase"<<endl;
+    }
+    else{
+        cout<<"uppercase";
+    }
+    return 0;
+}
